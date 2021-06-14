@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-size: xx-large;
+            color: darkred;
+            text-align: center;
+        }
+        .loginpage {
+            border:5px solid black;
+            background-color: white
+            
+        }
+        h3{
+            text-align: center;
+        }
+
+        .Buttons {
+            text-align: center;
+        }
+        /* .form{
+            background-color: lightskyblue;
+        } */
+
+        nav ul{
+            background-color: black;
+            border-style: solid;
+            border-color: white;
+            border-width: 2px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        nav ul li {
+            list-style-type: none;
+            display: inline;
+            margin-right: 10px;
+            margin-left: 10px;
+            color: white;
+            
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href= "home.html">Home</a></li>
+                <li><a href= "pastarticles.html">Articles</a></li>
+                <li style="color: grey;">Login</li>
+                <li><a href= "Registeration.html">Registeration</a></li>
+                <li><a href= "support.html">Support</a></li>
+                <li><a href= "aboutme.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form class = "form">
+    <div class = "loginpage">
+    <h1>Login</h1>
+    <h3>Username:
+    <label for="username"> 
+        <input type="text" id="username" name= "Username">
+    </label>
+    </h3>
+
+    <h3>Password:
+    <label for="password"> 
+        <input type="password" id="password" name= "Password">
+    </label>
+    </h3>
+
+    <h3>Confirm Password:
+    <label for="confirmpassword"> 
+        <input type="password" id="confrimpassword" name= "Confrim Password">
+    </label>
+    </h3>
+
+    <div class="Buttons">
+    <button type="submit">Submit Information</button>
+    <button type="reset">Reset</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    </div>
+    </form>
+</body>
+</html>

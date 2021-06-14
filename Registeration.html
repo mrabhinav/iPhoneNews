@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+
+            color: darkred;
+            font-weight: bold;
+        }
+        h3{
+            color: darkslateblue;
+            text-align: center;
+    
+
+        }
+
+        body{
+            border: 3px solid rgb(0, 0, 0);
+            background-color: white;
+        }
+
+        label{
+            color: darkgreen;
+            text-align: center;
+            
+        }
+
+        .Buttons{
+            text-align: center;
+        }
+
+        .DropDown{
+            text-align: center;
+        }
+        nav ul{
+            background-color: black;
+            border-style: solid;
+            border-color: white;
+            border-width: 2px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        nav ul li {
+            list-style-type: none;
+            display: inline;
+            margin-right: 10px;
+            margin-left: 10px;
+            color: white;
+            
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href= "home.html">Home</a></li>
+                <li><a href= "pastarticles.html">Articles</a></li>
+                <li><a href= "login.html">Login</a></li>
+                <li style="color: grey;">Registration</li>
+                <li><a href= "support.html">Support</a></li>
+                <li><a href= "aboutme.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+    <center>
+        <h1>Register Here:</h1>
+    </center>
+    
+    <h3>First Name:
+        <label for="firstname"> 
+            <input type="text" id="firstname" name= "FirstName">
+        </label>
+    </h3>
+
+    <h3>Last Name:
+        <label for="lastname"> 
+            <input type="text" id="lastname" name= "LastName">
+        </label>
+    </h3>
+
+    <h3>Username:
+        <label for="username"> 
+            <input type="text" id="username" name= "Username">
+        </label>
+    </h3>
+
+    <h3>Password:
+        <label for="password"> 
+            <input type="password" id="password" name= "Password">
+        </label>
+    </h3>
+
+    <h3>Confirm Password:
+        <label for="confirmpassword"> 
+            <input type="password" id="confrimpassword" name= "Confrim Password">
+        </label>
+    </h3>
+
+    <h3> Email Id:
+        <label for="emailid"> 
+            <input type="email" id="emailid" name= "Email Id">
+        </label>
+    </h3>
+
+    <h3>Phone Number:
+        <label for="Phone Number"> 
+            <input type="tel" id="phonenumber" name= "Phone Number">
+        </label>
+
+    <h3>Select Your City</h3>
+        <div class="DropDown">
+            <label for="DropDown">
+            <select id="DropDown">
+            <optgroup label = "Delaware"> 
+                <option>Newark</option>
+                <option>Wilmington</option>
+            </optgroup>
+            <optgroup label="Californa">
+                <option>Beverly Hills</option>
+                <option>Los Angles</option>
+            </optgroup>
+            </select>
+  
+        </label>
+    
+    <h3>Way of Communication</h3>
+        <label for= "email">
+        Email
+            <input type="radio" id = "email" name = "Communication" value = "1" />
+        </label>
+
+
+        <label for="phone">
+            Phone Number
+            <input type="radio" id = "phone" name = "Communication" value = "2" checked="checked"/>
+        </label>
+    <h3>How do you want your Recipt</h3>
+        <label for="Email">
+            Email
+            <input type="checkbox" id = "email" name = "Recipt" value = "1"/>
+        </label>
+
+        <label for="Paper">
+            Paper
+            <input type="checkbox" id = "paper" name = "Recipt" value = "2" checked/>
+
+        </label>
+
+    <h3>Feedback: </h3>
+        <label for="Feedback">
+            <textarea id="feedback" cols="90" rows="10"></textarea>
+
+        </label>
+        </div>
+
+
+    
+
+    <div class="Buttons">
+    <button type="submit">Submit Information</button>
+
+    <button type="reset">Reset Information</button>
+    </div>
+
+
+    </form>
+</body>
+</html>

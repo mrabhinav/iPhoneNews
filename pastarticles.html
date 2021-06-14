@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Articles</title>
+    <style>
+        .article{
+            /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            height: 50%; */
+            background-color: white;
+            color: black;
+            border-radius: 5px;
+            padding: 20px;
+            width: 400px;
+            height: 400px;
+            font-size: 150%;
+            border: 2px solid navy;
+        }
+        .article button{
+            background-color: black;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            width: 175px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            margin: 0px;
+            margin-bottom: 0px;
+            cursor: pointer;
+
+        }
+
+        .article button:hover{
+            opacity: 0.7;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .column{
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-gap: 325px;
+            text-align: center;
+            background-color: white;
+            color: black;
+            /* float: left; */
+            /* width: 33.33%; */
+            /* padding: 10px; */
+            /* height: 250px; */
+        }
+        .row:after{
+            display: table;
+            content: "";
+            clear: both;
+        }
+        .date{
+            color: grey;
+            /* position: absolute;
+            bottom: 8px; */
+            font-size: 20px;
+            /* right: 10px; */
+            
+        }
+        
+        nav ul{
+            background-color: black;
+            border-style: solid;
+            border-color: white;
+            border-width: 2px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        nav ul li {
+            list-style-type: none;
+            display: inline;
+            margin-right: 10px;
+            margin-left: 10px;
+            color: white;
+            
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href= "home.html">Home</a></li>
+                <li style="color: grey;">Articles</li>
+                <li><a href= "login.html">Login</a></li>
+                <li><a href= "Registeration.html">Registeration</a></li>
+                <li><a href= "support.html">Support</a></li>
+                <li><a href= "aboutme.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <!-- <div class="row"> -->
+        <div class="column">
+        <div class="article">
+            <h1>Article 1</h1>
+            <h3>The iPhone 12 Shipments are delayed</h3>
+            <p><a href="https://discussions.apple.com/thread/252026188" style = "text-decoration: none; color: white"><button style="padding: 15px;"> Read More About It </a></button></p>
+            <p class="date">Date: November 13, 2020</p>
+        </div>
+
+
+            <div class="article">
+                <h1>Article 2</h1>
+                <h3>Preorder on iPhone 12 Pro Max and iPhone 12 Mini Starts Today!</h3>
+                <p><a href="https://www.apple.com/iphone-12-pro/?afid=p238%7CsiTgP94Iy-dc_mtid_20925d2q39172_pcrid_479819550919_pgrid_112730051753_&cid=wwa-us-kwgo-iphone--slid---Brand-iPhone12ProMax-Avail-l" style = "text-decoration: none; color: white"><button style="padding: 15px;"> Read More About It </a></button></p>
+                <p class="date">Date: November 6, 2020</p>
+            </div>
+    
+      
+                <div class="article">
+                    <h1>Article 3</h1>
+                    <h3>The iPhone 12 and iPhone 12 Pro first shipments delivered!</h3>
+                    <p><a href="./document1.html" style = "text-decoration: none; color: white"><button style="padding: 15px;"> Read More About It </a></button></p>
+                    <p class="date">Date: October 26, 2020</p> 
+            </div>
+
+        </div>
+
+            <div class="column">
+            <div class="article">
+                <h1>Article 4</h1>
+                <h3>The iPhone 12 and iPhone 12 Pro preorders start today!</h3>
+                <p><a href="./document1.html" style = "text-decoration: none; color: white"><button style="padding: 15px;"> Read More About It </a></button></p>
+                <p class="date">Date: October 19, 2020</p>
+            </div>
+        
+    
+                <div class="article">
+                    <h1>Article 5</h1>
+                    <h3>Today's Apple Event consisted of the new iPhone 12s, HomePod Mini, and MagSafe accessories</h3>
+                    <p><a href="./document1.html" style = "text-decoration: none; color: white"><button style="padding: 15px;"> Read More About It </a></button></p>
+                    <p class="date">Date: October 13, 2020</p>
+                </div>
+        
+          
+                    <div class="article">
+                        <h1>Article 6</h1>
+                        <h3>Apple Event today! Something about speed</h3>
+                        <p><a href="./document1.html" style = "text-decoration: none; color: white"><button style="padding: 15px;"> Read More About It </a></button></p>
+                        <p class="date">Date: October 13, 2020</p> 
+                </div>
+         
+            </div>
+        
+    </form>
+</body>
+</html>
